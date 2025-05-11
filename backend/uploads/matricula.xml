@@ -1,0 +1,13 @@
+
+<matricula>
+  <alumne>
+    <nom>mippi</nom>
+    <cognoms>san</cognoms>
+    <email>mippi@san.com</email>
+    <adreca>carrer</adreca>
+    <telefon>44444444</telefon>
+  </alumne>
+  <cicle>DAM</cicle>
+  <curs>1r</curs>
+  <moduls>    <modul>Programació</modul>    <modul>Bases de Dades</modul>    <modul>Entorns de Desenvolupament</modul>  </moduls>
+</matricula>

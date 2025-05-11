@@ -1,0 +1,114 @@
+<<<<<<< HEAD
+
+
+<!DOCTYPE html>
+<html lang="ca">
+=======
+<!DOCTYPE html>
+<html lang="ca">
+
+>>>>>>> 24337f2 (Trabajo realizado)
+<head>
+    <meta charset="UTF-8">
+    <title>Matrícula Institut</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 24337f2 (Trabajo realizado)
+<body>
+    <h1>Formulari de matrícula</h1>
+
+    <form id="matriculaForm">
+        <fieldset>
+            <legend>Dades personals</legend>
+
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required><br>
+
+<<<<<<< HEAD
+            <!-- TO-DO
+            
+            * Definir els camps de formulari:
+
+              * Cognoms (obligatori)
+              * Correu electrònic (obligatori i en format de correu electrónic)
+              * adreça
+              * Telèfon
+
+            -->
+=======
+            <!--             
+            * Definir els camps de formulari:
+            -->
+            <label for="nom">Cognoms:</label>
+            <input type="text" id="coynoms" name="cognoms" required><br>
+            <label for="nom">Correu:</label>
+            <input type="text" id="correu" name="correu" required pattern="^[^@]+@[^@]+\.[^@]+$" title="Introdueix un correu válid"><br>
+            <label for="nom">Adreça:</label>
+            <input type="text" id="adreca" name="adreca" required><br>
+            <label for="nom">Telèfon:</label>
+            <input type="text" id="telefon" name="telefon" required><br>
+
+
+
+>>>>>>> 24337f2 (Trabajo realizado)
+        </fieldset>
+
+        <fieldset>
+            <legend>Estudis</legend>
+<<<<<<< HEAD
+            <!--  TO-DO:
+              
+                Definir els següents camps de formulari:
+
+                * Select pe al cicle, amb les opcions DAM i DAW
+                * Curs: Amb dos inputs de tipus Radio per triar 1r o 2n.
+
+            -->
+
+=======
+            <!--   
+                Definir opcions DAM i DAW i 1r o 2n
+            -->
+
+            <select name="cicle" id="cicle">
+                <option value="DAM"> Desarrollo de Aplicaciones Multiplataforma -DAM </option>
+                <option value="DAW"> Desarrollo de Aplicaciones Web -DAW </option>
+            </select>
+
+            <label for="nom">Primer:</label>
+            <input type="radio" value="1r" id="1r" name="curs" required><br>
+            <label for="nom">Segon:</label>
+            <input type="radio" value="2n" id="2n" name="curs" required><br>
+
+
+
+>>>>>>> 24337f2 (Trabajo realizado)
+        </fieldset>
+
+        <fieldset id="modulsFieldset">
+            <legend>Mòduls Professionals</legend>
+            <!-- Els checkboxes dels mòduls es generaran dinàmicament -->
+<<<<<<< HEAD
+        </fieldset>
+
+        <button type="submit">Enviar matrícula</button>
+    </form>
+
+    <script src="js/index.js" type="module"></script>
+</body>
+=======
+
+        </fieldset>
+
+        <button type="submit">Enviar matrícula</button>
+    </form> 
+
+    <script src="js/index.js" type="module"></script>
+</body>
+
+>>>>>>> 24337f2 (Trabajo realizado)
+</html>
